@@ -57,6 +57,7 @@ export default function Cart(props) {
     })
   }
 
+  
   const handleRemove = product => {
     actions.removeCartItem({
       item: product,
