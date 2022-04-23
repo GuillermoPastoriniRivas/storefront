@@ -8,6 +8,7 @@ import Head from 'next/head'
 import createLazyProps from 'react-storefront/props/createLazyProps'
 import fetchFromAPI from 'react-storefront/props/fetchFromAPI'
 
+
 const useStyles = makeStyles(theme => ({
   main: {
     display: 'flex',
